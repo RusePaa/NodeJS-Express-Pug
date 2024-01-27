@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    table.table.table-striped.table-success
+        thead
+            tr
+            th Base
+            th X
+            th Resultado
+        tbody
+            - for (var i = 0; i < 10; i++)
+                tr
+                    td=base[0]
+                    td=i+1
+                    td=base[i]

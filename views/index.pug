@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 Tabla de multiplicar
+    form(action='/' method='post')
+        div
+            label ¿Base de multiplicacion?&emsp;
+            input(type='number' name='base')
+        div
+        input(type='submit' value='Enviar')
