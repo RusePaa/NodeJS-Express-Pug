@@ -4,7 +4,7 @@ var {multiplicar} = require('../helpers/multiplicar');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Ejercicio Examen' });
+  res.render('index', { title: 'PabloGalan-Node-pug' });
 });
 
 router.post('/', function(req, res) {
